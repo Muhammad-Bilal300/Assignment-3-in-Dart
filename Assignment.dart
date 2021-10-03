@@ -1,6 +1,6 @@
 void main(List<String> args) {
   
-  
+
   var lst1 = [1, 2, 3, 4, 5, 6, 7];
   var lst2 = [3, 5, 6, 7, 9, 10];
 
@@ -76,13 +76,13 @@ void main(List<String> args) {
   if (operator == "+") {
     print("${firstNum}+${secondNum} = ${firstNum + secondNum}");
   } else if (operator == "-") {
-    print("${firstNum}+${secondNum} = ${firstNum - secondNum}");
+    print("${firstNum}-${secondNum} = ${firstNum - secondNum}");
   } else if (operator == "*") {
-    print("${firstNum}+${secondNum} = ${firstNum * secondNum}");
+    print("${firstNum}*${secondNum} = ${firstNum * secondNum}");
   } else if (operator == "/") {
-    print("${firstNum}+${secondNum} = ${firstNum / secondNum}");
+    print("${firstNum}/${secondNum} = ${firstNum / secondNum}");
   } else if (operator == "%") {
-    print("${firstNum}+${secondNum} = ${firstNum % secondNum}");
+    print("${firstNum}%${secondNum} = ${firstNum % secondNum}");
   }
 
 
